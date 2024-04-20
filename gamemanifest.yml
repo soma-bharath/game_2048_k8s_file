@@ -4,7 +4,7 @@ metadata:
   name: apache-web-app
   namespace: game
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: apache-web-app
